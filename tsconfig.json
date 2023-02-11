@@ -1,0 +1,22 @@
+
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
+    
+  },
+  "types": ["node", "jest", "@testing-library/jest-dom"]
+}
